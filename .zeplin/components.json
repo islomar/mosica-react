@@ -1,0 +1,30 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config":  {
+                "url": "http://localhost:9009",
+                "startScript": "storybook"
+            }
+        }        
+    ],
+    "projects": [],
+    "styleguides": [
+        "5e8f29540ec50a2240fe7505"
+    ],
+    "components": [
+        {
+            "path": "src/components/Price.js",
+            "zeplinNames": [
+                "LearnMore"
+            ]
+        }
+    ],
+    "github": {
+        "repository": "islomar/mosica-react",
+        "branch": "master"
+    }    
+}
